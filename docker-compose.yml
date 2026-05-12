@@ -1,0 +1,10 @@
+services:
+  fastapi-418:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fastapi-418:latest
+    ports:
+      - "8080:8080"
+
+# Made with Bob
