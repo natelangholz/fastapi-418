@@ -13,4 +13,3 @@ EXPOSE 8080
 
 CMD ["python", "-m", "app.main"]
 
-# Made with Bob
